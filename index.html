@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Table template</title>
+    <title>Planet Data</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -11,7 +11,7 @@
     <table>
         <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
         <colgroup>
-            <col colspan="2">
+            <col span="2">  <!-- Uses span not colspan -->
             <col style="border: 2px solid black">
             <col colspan="9"> 
         </colgroup>
